@@ -1,0 +1,34 @@
+table.table-wrapper {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table.table-wrapper td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  table.table-wrapper thead {
+      background-color: aliceblue;
+  }
+  
+  table.table-wrapper tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .create-block{
+    float: right;
+    padding-right: 10px;
+    background: bisque;
+    border: 1px solid;
+    color: black;
+    cursor: pointer;
+  }
+
+  p.success-msg {
+    color: green;
+    font-family: cursive;
+    font-size: medium;
+  }
